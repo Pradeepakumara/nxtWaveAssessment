@@ -1,10 +1,14 @@
 import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
 
 const DisplayList = () => {
   return (
-    <div>
-      
-    </div>
+    <Container>
+      <Row>
+        <Col>Col 1</Col>
+        <Col>Col 1</Col>
+      </Row>
+    </Container>
   )
 }
 

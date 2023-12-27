@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchListData } from '../redux/listReducer';
+import DisplayList from './DisplayList';
 
 const ListIndex = () => {
 
@@ -17,7 +18,7 @@ const ListIndex = () => {
 
   return (
     <div>
-      
+      <DisplayList />
     </div>
   )
 }
