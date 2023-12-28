@@ -1,5 +1,6 @@
-.App {
+body {
   text-align: center;
+  background-color: rgb(236, 236, 236) !important;
 }
 
 .App-logo {
@@ -36,3 +37,34 @@
     transform: rotate(360deg);
   }
 }
+
+.overlay{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(10, 1, 1, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-div{
+  background-color: white;
+  height: calc(100vh - 150px);
+  margin-right: 5px;
+  margin-left: 5px;
+  overflow-y: scroll;
+}
+
+.list-wrap{
+  overflow-x: scroll !important;
+}
+
+.navigation-btns .arrow-keys{
+  font-weight: bolder;
+}
+
